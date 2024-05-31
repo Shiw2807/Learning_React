@@ -1,7 +1,12 @@
 import React from "react";
 
-const Greet =props=> {
-return <h1>Hello {props.name}</h1>
-}
+const Greet = ({ name = "" }) => {
+  return (
+    <>
+      <h1>Hello {name}</h1>
+      <h1>Namaste {name}</h1>
+    </>
+  );
+};
 
 export default Greet;

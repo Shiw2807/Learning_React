@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function FunctionClick() {
 
-    function clickHandlder(){
+  function clickHandlder(){
         console.log("Button Clicked")
     }
     
